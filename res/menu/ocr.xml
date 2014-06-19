@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wm.bookshare.OCRActivity" >
+    <item
+        android:id="@+id/action_select_photo"
+        android:title="@string/action_select_photo"
+        android:icon="@drawable/photo"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/action_camera"
+        android:title="@string/action_camera"
+        android:icon="@drawable/ic_camera"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+</menu>

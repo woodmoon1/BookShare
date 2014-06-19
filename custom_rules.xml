@@ -1,0 +1,6 @@
+<propertyname="generated.dir"value=".apt_generated"/>
+<propertyname="generated.absolute.dir"location="${generated.dir}"/>
+<propertyname="java.compilerargs"value="-s'${generated.absolute.dir}'"/>
+<targetname="-pre-compile">
+      <mkdirdir="${generated.absolute.dir}"/>
+</target>
